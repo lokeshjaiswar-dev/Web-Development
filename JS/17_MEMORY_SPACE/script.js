@@ -1,0 +1,9 @@
+const firstName = 'Lokesh'
+const firstName1 = 'Lok' + 'esh'
+const userAge = 21
+const isGraduate = true
+const isDegree = true
+const isMarried = false
+const salary = null
+const growth = undefined
+const emptyString = ""
