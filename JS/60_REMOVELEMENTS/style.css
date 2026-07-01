@@ -1,0 +1,15 @@
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+img {
+    width: 50px;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
