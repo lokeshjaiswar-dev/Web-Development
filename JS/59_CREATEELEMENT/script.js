@@ -24,21 +24,21 @@
     // }
     
 
-const h1 = document.querySelector('h1')
-const container = document.querySelector(".container")
-const divInsideContainer = document.querySelector('.container div')
+// const h1 = document.querySelector('h1')
+// const container = document.querySelector(".container")
+// const divInsideContainer = document.querySelector('.container div')
 
-for(let i = 2; i <= 100; i++){
-    const divElement = document.createElement('div')
+// for(let i = 2; i <= 100; i++){
+//     const divElement = document.createElement('div')
 
-    const myHTML = `
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png">
-        <p>${i}</p>
-    `
-    divElement.innerHTML = myHTML
+//     const myHTML = `
+//         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png">
+//         <p>${i}</p>
+//     `
+//     divElement.innerHTML = myHTML
 
-    container.append(divElement)
-}
+//     container.append(divElement)
+// }
 
 // for(let i = 2; i <= 100; i++){
 //     const divElement = document.createElement('div')
@@ -68,3 +68,18 @@ for(let i = 2; i <= 100; i++){
 //     divCopy.append(img, p)
 //     container.append(divCopy)
 // }
+
+const container = document.querySelector(".container")
+
+let myHTML = ``
+
+for(let i = 1; i <= 100; i++){
+    myHTML += `
+        <div>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png">
+            <p>${i}</p>
+        </div>
+    `
+}
+
+container.innerHTML = myHTML
