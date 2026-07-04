@@ -21,17 +21,17 @@ const usernameInput = document.querySelector('#username')
 
 // })
 
-// usernameInput.addEventListener('focus', function(e){
+usernameInput.addEventListener('focus', function(e){
 
-//     console.log('focus',e.target.value)
+    console.log('focus',e.target.value)
 
-// })
+})
 
-// usernameInput.addEventListener('blur', function(e){
+usernameInput.addEventListener('blur', function(e){
 
-//     console.log('blur',e.target.value)
+    console.log('blur',e.target.value)
 
-// })
+})
 
 const form = document.querySelector('form');
 form.addEventListener('submit',function(e){
