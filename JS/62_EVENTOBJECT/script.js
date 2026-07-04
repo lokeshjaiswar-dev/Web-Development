@@ -9,17 +9,17 @@ const usernameInput = document.querySelector('#username')
 //     console.log('double clicked')
 // })
 
-usernameInput.addEventListener('input', function(e){
-    // console.log("Data",e.data);
-    console.log('Value',e.target.value)
-    // console.log('input event triggered')
-})
+// usernameInput.addEventListener('input', function(e){
+//     // console.log("Data",e.data);
+//     console.log('Value',e.target.value)
+//     // console.log('input event triggered')
+// })
 
-usernameInput.addEventListener('change', function(e){
+// usernameInput.addEventListener('change', function(e){
     
-    console.log('Value',e.target.value)
+//     console.log('Value',e.target.value)
 
-})
+// })
 
 // usernameInput.addEventListener('focus', function(e){
 
