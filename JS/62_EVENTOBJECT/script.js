@@ -24,9 +24,9 @@ const usernameInput = document.querySelector('#username')
 
 // usernameInput.addEventListener('focus', function(e){
 
-    console.log('focus',e.target.value)
+//     console.log('focus',e.target.value)
 
-})
+// })
 
 // usernameInput.addEventListener('blur', function(e){
 
