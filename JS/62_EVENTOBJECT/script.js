@@ -43,3 +43,4 @@ form.addEventListener('submit',function(e){
     console.log('konsa bhi event laga sakte hai par mainly submit event lagate hai')
 })
 
+
