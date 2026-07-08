@@ -38,8 +38,7 @@ const usernameInput = document.querySelector('#username')
 const form = document.querySelector('form');
 form.addEventListener('submit',function(e){
 
-    // iska notes likhna hai
-    // e.preventDefault() 
+    e.preventDefault() 
     console.log('konsa bhi event laga sakte hai par mainly submit event lagate hai')
 })
 
